@@ -46,7 +46,7 @@ TELEGRAM_TOKEN - токен [Telegram-бота](https://core.telegram.org/bots#h
 TELEGRAM_CHAT_ID - [идентификатор Telegam-чата](https://t.me/getmyid_bot), в который будут отправляться сообщения.
 * Запустить проект
 ```
-python3 homework_bot.py
+python3 homework.py
 ```
 ## Автор проекта.
 Вячеслав Клепалов [ссылка на Git](https://github.com/KlepalovS).
