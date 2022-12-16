@@ -109,6 +109,7 @@ def check_response(response: dict) -> list:
 def parse_status(homework: dict) -> str:
     """
     Извлекаем из информации о конкретной домашней работе статус этой работы.
+    Сопоставляем полученый статус со словарем вердиктов.
     """
     try:
         homework_name = homework['homework_name']
