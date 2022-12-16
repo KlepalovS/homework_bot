@@ -13,6 +13,11 @@ class ResponseStatusNotOk(Exception):
     pass
 
 
+class JSONDecodeErrore(Exception):
+    """Ошибка декодинга json в python данные."""
+    pass
+
+
 class ResponseIsNotDict(Exception):
     """Запрос не возвращает словарь данных."""
     pass
